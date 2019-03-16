@@ -1,1 +1,2 @@
-#menu-bar: {min-height:40px; max-width: 100%; background-colour: gray; }
+#menu-bar: {min-height:40px; max-width: 100%; background-colour: grey; }
+.menu-bar-button: {border-right: 3px; border-right-colour: grey;}
