@@ -1,20 +1,25 @@
-body {z-index:-1}
-
-.menu-bar { max-width: 40%;
-margin: auto;
-min-height: 40px;
-z-index: 1;
+body {
+    margin: 0;
 }
+.contents {
+    position: inherit;
+}
+
+.menu-bar {
+overflow: hidden;
+position:fixed;
+    top: 0px;
+width: 100%;
+min-height: 40px;
+}
+
 .menu-bar a {
 background-color:  #dbdbdb;
-border: 20px;
-padding: 40px; 
 border-right-color:  #99ccff; 
 font-family: Arial, Helvetica, sans-serif;
 text-decoration: none;
 border-color: gray;
-border: 2px solid;
-margin: 20px;
+
 }
 
 /* unvisited link */
@@ -35,4 +40,8 @@ a:hover {
 /* selected link */
 a:active {
   color: dark-gray;
+}
+
+video: {
+    z-index: -1
 }
